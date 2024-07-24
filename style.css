@@ -552,6 +552,7 @@ footer{
     }
 
     #portfolio h2{
+        width: 100%;
         margin: 100px 0;
         font-size: 40px;  
     }
@@ -560,20 +561,20 @@ footer{
         height: 400px;
     }
 
-    #fim{
-        padding: 50px;
-    }
-
     .flex a{
         font-size: 23px;
     }
 
-    .menu-desktop{
-        display: none;
-    }
-    
     .flex i{
         padding: 20px 10px 20px 0;
+    }
+
+    #fim{
+        padding: 50px;
+    }
+
+    .menu-desktop{
+        display: none;
     }
 
     .ativa-menu-mobile{
