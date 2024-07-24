@@ -232,7 +232,7 @@ main{
 #contato{
     width: 80%;
     margin: 100px auto;
-    height: 600px;
+    height:auto;
 }
 
 #contato h2{
@@ -269,16 +269,20 @@ main{
 }
 
 
+
+
 .flex a{
     text-decoration: none;
     font-size: 30px;
     color: var(--branco);
+    overflow: none;
 }
+
+
 
 .flex i{
     color: var(--bege);
     font-size: 40px;
-    padding: 20px;
 }
 
 
@@ -547,6 +551,11 @@ footer{
         margin-left: 5vh;
     }
 
+    #portfolio h2{
+        margin: 100px 0;
+        font-size: 40px;  
+    }
+
     .fotos img{
         height: 400px;
     }
@@ -556,18 +565,21 @@ footer{
     }
 
     .flex a{
-        font-size: 25px;
+        font-size: 23px;
     }
 
     .menu-desktop{
         display: none;
+    }
+    
+    .flex i{
+        padding: 20px 10px 20px 0;
     }
 
     .ativa-menu-mobile{
         display: block;
         transition: all 0.5s ease;
     }
-
     
     .menu-mobile ul{
         padding-top: 20px;
