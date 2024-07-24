@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amanda da Rosa</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2bfdf3b7ab.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="/img/arquitetura.png">
+</head>
+<body>
+    
+    <main>
+        <nav>
+            <ul class="menu-desktop">
+                <li class="navegacao"><a href="#content-inicial">Inicio</a></li>
+                <li class="navegacao"><a href="#sobre">Sobre</a></li>
+                <li class="navegacao"><a href="#portfolio">Projetos</a></li>
+                <li class="navegacao"><a href="#contato">Contato</a></li>
+            </ul >
+            <div class="ativa-menu-mobile">
+                <div class="menu-mobile" style="display: none;">
+                    <ul>
+                        <li class="navegacao"><a href="#content-inicial">Inicio</a></li>
+                        <li class="navegacao"><a href="#sobre">Sobre</a></li>
+                        <li class="navegacao"><a href="#portfolio">Projetos</a></li>
+                        <li class="navegacao"><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                <i onclick="criaMenu()" class="fa-solid fa-bars"></i>
+                
+            </div>
+        </nav>
+
+        <section id="content-inicial" class="visual">
+            <div class="inicio">
+                <p id="arq">ARQUITETURA E INTERIOR</p>
+                <H1><span>AMANDA</span> DA ROSA</H1>
+                <p id="frase">DIFERENCIANDO O <span>OLHAR</span> DO MUNDO</p>
+            </div>
+        </section>
+
+        <section id="sobre" class="visual">
+            <div class="center">
+                <div id="fundo-sobre" data-aos="fade-right"
+                data-aos-duration="1000" data-aos-anchor-placement="center-bottom">
+                    <div class="img-sobre">
+                        <img src="img/foto-arquiteta.jpg" alt="foto-arquiteta">
+                    </div>
+                    <div id="content-sobre">
+                        <h2>SOBRE NÓS</h2>
+                        <p>       <strong>Amanda da Rosa</strong> é uma arquiteta brasileira destacada pela sua atuação em projetos sustentáveis e inclusivos. Formada pela Universidade de São Paulo (USP) em 2008, fundou seu próprio escritório em 2012. Entre seus principais projetos estão a Residência Sustentável em Florianópolis, o Centro Comunitário em Paraisópolis e a Biblioteca Municipal de São Paulo.
+                            Amanda recebeu prêmios como o de Arquitetura Sustentável (2016) e o de Inclusão Social na Arquitetura (2018). Além disso, é autora do livro "Arquitetura para Todos" (2019) e participa ativamente de conferências sobre sustentabilidade e design inclusivo, inspirando novos profissionais da área.</p>
+
+                        <h3>"AMOR AO VISUAL E FUNCIONAL"</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="visual">
+            <div class="center">
+                <h2>Projetos Desenvolvidos</h2>
+                <div class="fotos" data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="top-center">
+                    <div id="foto1"></div>
+                    <div id="foto2"></div>
+                    <div id="foto3"></div>
+                    <div id="foto4"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="visual">
+                <h2>CONTATOS</h2>
+                <div class="flex">
+                    <div class="wpp">
+                        <p>Faça seu orçamento pelo WhatsApp</p>
+                        <a href="https://wa.me/5551996084548"><i class="fa-brands fa-whatsapp"></i> Clique Aqui! </a>
+                    </div>
+                    <div class="outros-contatos">
+                        <p>Outros meios de contato</p>
+                        <a href="#"><i class="fa-solid fa-phone"></i>(11) 91234-5678 </a>    
+                        <a href="#"><i class="fa-solid fa-envelope"></i>arquiteta.amanda.rosa@example.com</a>
+                    </div>
+                </div>
+        </section>
+
+        <section id="fim">
+            <h4>Destacando as estruturas</h4>
+            <ul>
+                <li><a href="#content-inicial">Inicio</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#portfolio">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>Todos os direitos reservados - Arquiteta Amanda da Rosa - 2024 - By Miguel Elias</p>
+    </footer>
+
+
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init()
+
+        // As animações de scroll são todas da biblioteca AOS(Animate on Scroll)
+        // Link da biblioteca : https://michalsnik.github.io/aos/
+    </script>
+</body>
+</html>
